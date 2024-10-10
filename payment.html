@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - ProShop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1>ProShop</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#" id="cart-btn">Cart (<span id="cart-count">0</span>)</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h2>Payment Information</h2>
+    <form id="payment-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" required>
+      <label for="expiry">Expiry Date:</label>
+      <input type="text" id="expiry" placeholder="MM/YY" required>
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" required>
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 ProShop. All Rights Reserved.</p>
+  </footer>
+
+  <script src="payment.js"></script>
+</body>
+</html>
+    
